@@ -1,0 +1,427 @@
+
+body {
+    font-family: "sans-serif";
+    background-image: url(../images/backgd.jpg);
+    margin: 10px;
+    padding-left: 10px; 
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+
+/* Header Section*/
+.search-icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    padding-left: 5px;
+    margin-top: 10px;
+    background-color: #31326F;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1.6px 1.6px 1.6px greenyellow;
+}
+
+input {
+    margin-left: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #31326F;
+    border-radius: 10px;
+    color: whitesmoke;
+    
+}
+
+::placeholder {
+    color: white;
+}
+
+.siteHeader nav ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 10px;
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    text-decoration: none;
+    padding-top: 3px;
+    color:#31326F;
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: indianred;
+    
+}
+
+.top img {
+    width: 100%;
+    height: 80px;
+}
+
+
+/* Hero Section*/
+
+.hero {
+   margin-top: 15px;
+   width: 100%;
+   border: none
+}
+
+.hero div img {
+    width: 100%;
+}
+
+.hero img {
+    width: 95%;
+    margin: 10px;
+} 
+
+.heroContent h2 {
+    padding-right: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+.heroContent  p {
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-right: 20px;
+    font-family: sans-serif;
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.button {
+    background-color: #90AACB;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: sans-serif;
+    width: 50px;
+    height: 5px;
+    box-shadow: 2.8px 2.8px 2.8px black;
+    text-align: center;
+}
+
+.button:hover {
+    background: #3cfce6;
+    background-image: -webkit-linear-gradient(top, #3cfce6, #34d9c3);
+    background-image: -moz-linear-gradient(top, #3cfce6, #34d9c3);
+    background-image: -ms-linear-gradient(top, #3cfce6, #34d9c3);
+    background-image: -o-linear-gradient(top, #3cfce6, #34d9c3);
+    background-image: linear-gradient(to bottom, #3cfce6, #34d9c3);
+    text-decoration: none;
+  }
+
+
+
+/* Spot Section*/
+.spot {
+    width: 100%;
+    margin-top: 15px;
+    display: none;
+    
+}
+
+.spot img {
+    height: 150px;
+    width: 200px;
+}
+
+.spot p {
+    padding-left: 50PX;
+    color: darkblue;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.item1 {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #CEE5D0;
+}
+
+.item2 {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #CEE5D0;
+}
+
+.item3 {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #CEE5D0;
+}
+
+
+/* Popular Products Section */
+
+h1 {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.products {
+   display:grid ;
+   grid-template-columns: 1fr;
+   gap: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.productInfo {
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.products img {
+    width: 100%;
+}
+
+/* 
+.products .items3, .products .items4,
+.products .items5, .products .items6,
+.products .items7, .products .items8 {
+    display: none;
+}
+*/
+
+
+
+/* Links Section*/
+
+.check ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 12px;
+
+}
+
+ a {
+    text-decoration: none;
+    color:#31326F;
+   
+}
+
+ a:hover {
+    color:red;
+}
+
+.check ul li {
+    line-height: 40px;
+
+}
+
+.fas {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.far {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+/* Items section*/
+h5 {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font: bold;
+    color: #31326F;
+   
+}
+
+.list div ul {
+    padding-left: 0;
+    list-style-type: none;
+    line-height: 20px;
+    
+}
+
+.list li {
+    font-size: 10px;
+}
+
+.list ul li a {
+    color:#31326F;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.list ul li a:hover {
+    color: red;
+}
+
+
+/* Copywrite Section*/
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+
+/* Breakpoint 765 px */
+
+/* Header Section*/
+@media  (min-width:576px) {
+    .top {
+        display: flex;
+        align-items: center;
+    }
+    .search-icon {
+        height: 20px;
+        margin-left: 20px;
+        width: 140px;
+        height: 14px;
+    }
+
+    input {
+        height: 12px;
+    }
+    
+    .top img {
+        width: 25%;
+        height: 50px;
+    }
+}
+
+    
+@media (min-width:576px) {
+    nav ul {
+        display: flex;
+    }
+    nav li {
+        margin-right: 10px;
+    }
+    
+}
+
+
+/* Hero Section*/
+@media  (min-width:576px) {
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    .heroContent {
+       width: 30%; 
+    }
+
+    .hero Img {
+        width: 60%;   
+
+    }
+    
+ 
+    .heroContent h2 {
+        font-size: 16px;
+        padding-top: 20px;
+        
+    }
+
+    .heroContent  p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .container {
+        text-align: left;
+        margin-left: 10px;
+    }
+ 
+}
+
+
+
+/* Spot Section*/
+@media (min-width:576px) {
+    .spot {
+        display: none;
+    }
+   .spot {
+       display: block; 
+       display: flex;
+       justify-content: space-between;
+        gap: 10px;
+   } 
+}
+
+
+/* Popular product Section*/
+
+@media (min-width:576px) {
+    .products  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+
+
+/*Links Section*/
+@media (min-width:576px) {
+    .check ul {
+        display: flex;
+    }
+    .fas {
+        margin-left: 20px;
+    }
+    .far {
+        margin-left: 20px;
+    }
+}
+
+/* List Section*/
+@media (min-width:576px) {
+    .list {
+        display: flex;
+    }
+    .list ul li a {
+        margin-right: 50px;
+    }
+}
+
+
+/*Items Section*/
+@media (min-width:576px) {
+     .copy {
+        align-items: center;
+    }
+}
